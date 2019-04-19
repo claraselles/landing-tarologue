@@ -32,6 +32,10 @@
     padding: 2%;
 }
 
+.photo {
+    width: 40%;
+}
+
 .photo>img {
     display: block;
     margin: auto;
@@ -39,7 +43,10 @@
 }
 
 .texte {
+    width: 60%;
     display: flex;
+    font-size: 20px;
+    text-align: left;
 }
 
 .texte>p{
@@ -61,5 +68,10 @@
     }
     .photo, .texte {
         margin: auto;
+        width: 100%;
+    }
+    .texte {
+        padding-top: 20px;
+        text-align: justify;
     }
 }
