@@ -1,0 +1,28 @@
+.about-me::after {
+	margin: 20px auto;
+}
+
+.clara2 {
+    position: relative;
+    display: block;
+    left: 0;
+    z-index: 0;
+    bottom: 0;
+    width: 50%;
+  
+}
+
+
+.col-md-offset-6 {
+margin-left: 49%;
+}
+
+.col-md-6 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.aboutme  {
+	background-image: "./assets/images/img-02.jpg";
+}
