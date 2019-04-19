@@ -20,6 +20,33 @@
     display: none;
 }
 
+.about_container {
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.photo, .texte {
+    width: 50%;
+    padding: 2%;
+}
+
+.photo>img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.texte {
+    display: flex;
+}
+
+.texte>p{
+    margin: auto;
+}
+  
+
 @media screen and (max-width: 1024px){
     .image-column-mobile {
         display: block !important;
@@ -28,5 +55,11 @@
     }
     .image-column-mobile-3 {
         background-position: center;
+    }
+    .about_container {
+        flex-direction: column;
+    }
+    .photo, .texte {
+        margin: auto;
     }
 }
