@@ -48,6 +48,24 @@
 .texte>p{
     margin: auto;
 }
+
+#old_map {
+    height: 500px;
+    position: relative;
+    display: flex;
+}
+
+#old_map>.reveal {
+    position: static;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    max-width: 520px;
+}
+
+.footer-container {
+    margin-top: 0;
+}
   
 
 @media screen and (max-width: 1024px){
@@ -69,5 +87,18 @@
     .texte {
         padding-top: 20px;
         text-align: justify;
+    }
+    #old_map>.reveal {
+        width: 90%;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+    .fix-mobile-title h1 {
+        font-size: 32px;
+    }
+    .fix-mobile-title h2 {
+        font-size: 30px;
     }
 }
