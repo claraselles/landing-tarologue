@@ -5351,11 +5351,6 @@
 
 
 
-// target.addEventListener(click, listener[A,B,C, options]);
-
-
-
-
 
 
 
