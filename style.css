@@ -106,3 +106,7 @@
 h2::after {
   background-color: #33c4dd;
 }
+
+#btn-to-contact:hover {
+    background-color: #33c4dd;
+}
