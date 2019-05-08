@@ -110,3 +110,44 @@ h2::after {
 #btn-to-contact:hover {
     background-color: #33c4dd;
 }
+
+.cosmos {
+    background-image: url('./assets/images/cosmos.jpg')
+}
+
+.citation {
+    font-size: 22px; 
+    font-style: italic;
+}
+
+.auteur{
+    font-size: 20px; 
+    text-align: right;
+}
+
+.presentation{
+    padding-bottom: 0;
+}
+
+.titre-presentation{
+    color: #051f49;
+}
+
+.sophie-hanna{
+    max-width: 100%;
+}
+
+.texte-presentation{
+    color: #051f49;
+}
+
+.titre-offre{
+    color: #051f49;
+}
+
+.tarifdevis{
+    text-align: center; 
+    font-size: 20px;
+    color: #051f49;
+   
+}
